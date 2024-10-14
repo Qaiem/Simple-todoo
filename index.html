@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="todolist.css">
+  <title>Modern To-Do List</title>
+</head>
+<body>
+  <div class="todo-wrapper">
+    <header>
+      <h1>Task Manager</h1>
+    </header>
+    <div class="todo-container">
+      <div class="input-area">
+        <input type="text" id="taskInput" placeholder="What do you need to do today?">
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+  <script src="todolist.js"></script>
+</body>
+</html>
